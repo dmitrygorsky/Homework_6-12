@@ -38,7 +38,7 @@ public class LibraryApp {
 
         while (b) {
             try {
-                File libraryContents = new File("./Lib.txt");
+                File libraryContents = new File("./src/Lib.txt");
 
                 br = new BufferedReader(new FileReader(libraryContents));
                 String text;
